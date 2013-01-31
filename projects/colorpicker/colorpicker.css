@@ -1,0 +1,148 @@
+/*
+	Cody Stebbins (mail@codystebbins.com)
+	4 November 2012
+	INFO 343 B, Autumn 2012
+	Mini Project - Color Picker
+	CSS file for Color Picker
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Quantico);
+
+body {
+	margin-top:1.2em;
+}
+
+#hslRgbInputs input{
+	width:4em;
+}
+
+#sidebar span{
+	width: 4.5em;
+}
+
+/* #preview css */
+
+#preview {
+	font-family: "Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
+	font-size: 1.125em;
+	max-width: 65em;
+	min-width: 44em;
+	overflow: scroll;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#preview a {
+	text-decoration: none;
+}
+
+#preview img {
+	float: right;
+	width: 40%;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+#preview blockquote, p {
+	line-height: 2em;
+}
+
+#preview li, h1, h2, h3, p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#preview #masthead {
+	padding-left: 1em;
+	padding-right: 1em
+
+}
+
+#preview #masthead * {
+	font-family: "Quantico", sans-serif;
+	display: inline-block;
+}
+
+#preview #masthead a {
+	text-decoration: none;
+	color: black;
+}
+
+#preview #masthead ul li:first-child{
+}
+
+#preview #masthead ul li:first-child a{
+	color: lightgrey;
+}
+
+#preview #masthead ul li {
+	padding: .25em .5em;
+}
+
+#preview #subtitle {
+	font-size: 1.5em;
+	font-weight: normal;
+	font-style: italic;
+	margin-left: 1em;
+}
+
+#preview aside {
+	float: left;
+	width: 20%;
+}
+
+#preview aside > div {
+	padding: .5em;
+}
+
+#preview aside ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#preview #content {
+	float: left;
+	width: 80%;
+}
+
+#preview #content > div {
+
+}
+
+#preview #content a {
+	color: #05326D;
+}
+
+#preview #footer {
+	clear: both;
+}
+
+#preview #footer p {
+	margin-left: 12em;
+}
+
+#preview #main {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 1em;
+}
+
+#preview .post {
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	overflow: auto;
+	padding: .5em;
+}
+
+#preview .post h2 {
+	margin-top: 1em;
+	padding-top: 0;
+} 
+
+#preview .post:first-child {
+	margin-top: 0;
+}
