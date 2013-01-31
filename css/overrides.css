@@ -1,0 +1,222 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+
+
+.carousel-inner img {
+  display:table;
+  margin:0 auto;
+}
+
+section {
+  clear: both;
+}
+
+.carousel-inner h3 {
+  text-align: center;
+}
+
+.carousel-inner p {
+  display: table;
+  margin:0 auto;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+strong.hl {
+  background: #F9FDA2;
+}
+
+a.uparrow {
+  display: none;
+}
+
+code {
+  color: black;
+}
+
+a code {
+  background: none;
+}
+
+.jumbotron {
+  margin: 60px 0;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 72px;
+  line-height: 1;
+}
+
+.love {
+  color: #ff0000;
+}
+
+.toc-sidenav {
+  width: 228px;
+  margin: 0px 0 0;
+  padding: 0;
+}
+.toc-sidenav > li > a {
+  display: block;
+  width: 190px \9;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
+  border: 1px solid #e5e5e5;
+}
+
+.toc-sidenav > li.start > a {
+  -webkit-border-radius: 6px 6px 0 0;
+     -moz-border-radius: 6px 6px 0 0;
+          border-radius: 6px 6px 0 0;
+}
+
+.toc-sidenav > li.ending > a {
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+}
+
+.toc-sidenav.affix {
+  top: 40px;
+}
+.toc-sidenav.affix-bottom {
+  position: absolute;
+  top: auto;
+  bottom: 270px;
+}
+
+ul.toc-sidenav li a:before {
+  content: "⊙ ";
+}
+
+.media {
+  padding-bottom: 10px;
+}
+
+.center_media {
+  margin-top: 70px;
+}
+
+.footer {
+  padding: 50px 0;
+  margin-top: 70px;
+  border-top: 1px solid #E5E5E5;
+  background-color: whiteSmoke;
+}
+
+.footer p {
+  margin-bottom: 0;
+  color: #777;
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 980px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+  /* Widen masthead and social buttons to fill body padding */
+  .jumbotron {
+    margin-top: -20px; /* Offset bottom margin on .navbar */
+  }
+  /* Adjust sidenav width */
+  .toc-sidenav {
+    width: 166px;
+    margin-top: 20px;
+  }
+  .toc-sidenav.affix {
+    top: 0;
+  }
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+  /* Remove any padding from the body */
+  body {
+    padding-top: 0;
+  }
+
+  /* Widen masthead and social buttons to fill body padding */
+  .jumbotron {
+    padding: 40px 20px;
+    margin: -20px -20px -20px -20px;
+  }
+
+  /* Sidenav */
+  .toc-sidenav {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .toc-sidenav.affix {
+    position: static;
+    width: auto;
+    top: 0;
+  }
+
+  a.uparrow {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    top: -7px;
+  }
+
+  /* Unfloat the back to top link in footer */
+  .footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer p {
+    margin-bottom: 9px;
+  }
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+  /* Remove padding above jumbotron */
+  body {
+    padding-top: 0;
+  }
+
+  /* Change up some type stuff */
+  h2 small {
+    display: block;
+  }
+
+  /* Downsize the jumbotrons */
+  .jumbotron h1 {
+    font-size: 45px;
+  }
+  .jumbotron p,
+  .jumbotron .btn {
+    font-size: 18px;
+  }
+  .jumbotron .btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* center align subhead text like the masthead */
+  .subhead h1,
+  .subhead p {
+    text-align: center;
+  }
+
+  /* Tighten up footer */
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* Unfloat the back to top in footer to prevent odd text wrapping */
+  .footer .pull-right {
+    float: none;
+  }
+}

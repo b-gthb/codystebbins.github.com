@@ -1,79 +1,457 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="codystebbins.github.com : Personal Website powered by github pages!" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>codystebbins.github.com</title>
+    <meta charset="utf-8">
+    <title>Cody Stebbins</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="personal website for cody stebbins">
+    <meta name="author" content="Cody Stebbins">
+    <link rel="icon"
+          type="image/jpg"
+          href="//www.gravatar.com/avatar/1c68ab765f28149916c62e4022a68ea3.png" />
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="./css/overrides.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".toc">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/codystebbins">View on GitHub</a>
+    <header class="jumbotron subhead" id="overview">
+      <div class="container">
+        <h1>Cody Stebbins</h1>
+        <p>
+          <div class="g-plusone" data-size="tall"></div>
+        </p>
+        <p class="lead">
+          University of Washington undergraduate studying Informatics. Pursuing a career in software engineering focusing on web and mobile. Strong communicator and self motivated problem solver.
+        </p>
+      </div>
+    </header>
 
-          <h1 id="project_title">codystebbins.github.com</h1>
-          <h2 id="project_tagline">Personal Website powered by github pages!</h2>
+    <div class="container">
+      <div class="row">
+        <div id="top" class="span3 toc">
+          <ul class="nav nav-list toc-sidenav">
 
-        </header>
+            <li class="nav-header">Resume</li>
+
+            <li class="start">
+              <a class="scroll" 
+                 href="#projects">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a class="scroll" 
+                 href="#experience">
+                 Experience
+              </a>
+            </li>
+            <li>
+              <a class="scroll" 
+                 href="#education">
+                 Education
+              </a>
+            </li>
+            <li class="ending">
+              <a class="scroll" 
+                 href="#tech_skills">
+                 Technical Skills
+              </a>
+            </li>
+
+            <li class="nav-header">Links</li>
+
+            <li class="start">
+              <a target="_blank"
+                 href="mailto:mail@codystebbins.com">
+                 mail@codystebbins.com
+              </a>
+            </li>
+            <li>
+              <a target="_blank"
+                 href="//blog.codystebbins.com/">
+                 Blog
+               </a>
+            </li>
+            <li>
+              <a target="_blank"
+                 href="//github.com/codystebbins">
+                 GitHub
+               </a>
+             </li>
+            <li>
+              <a target="_blank"
+                 href="//www.linkedin.com/in/codystebbins">
+                 LinkedIn
+              </a>
+            </li>
+            <li>
+              <a target="_blank"
+                 href="//plus.google.com/106592743137089544478/posts?rel=author">
+                 Google+
+               </a>
+            </li>
+            <li class="ending">
+              <a target="_blank" 
+                 href="//twitter.com/CodyStebbins">
+                Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="span9">
+<!-- Content -->
+
+<section id="projects">
+<div class="page-header">
+  <h1>
+    Projects
+    <a class="uparrow scroll" href="#top">&uarr;</a>
+  </h1>
+</div>
+<div id="projectsCarousel" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="active item">
+      <h3>
+        you should Play
+      </h3>
+      <p>
+        A video game recommendation search engine similar in spirit to Spotify or Pandora. Built on Ruby on Rails and Apache Solr.
+      </p>
+      <p>
+        <a target="_blank" href="//youshouldplay.codystebbins.com/">
+          View Application
+        </a>
+        <br/>
+        <a target="_blank" href="//github.com/codystebbins/you_should_play">
+          View Code
+        </a>
+      </p>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+    <div class="item">
+      <h3>
+        Tune Guessr
+      </h3>
+      <p>
+        Guess tunes from your favorite artists! Uses the Musixmatch api and the Youtube api to create a song guessing game.
+      </p>
+      <p>
+        <a target="_blank" href="//tuneguesser.codystebbins.com/">
+          View Application
+        </a>
+        <br/>
+        <a target="_blank" href="//github.com/codystebbins/tune_guesser">
+          View Code
+        </a>
+      </p>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="item">
+      <h3>
+        Color Picker
+      </h3>
+      <p>
+        An interactive color picking tool written in javascript. Supports multiple display inputs such as RGB, HSL and generates a variety of color schemes. Has a live update preview of the colors.      
+      </p>
+      <p>
+        <a target="_blank" href="//colorpicker.codystebbins.com/">
+          View Application
+        </a>
+        <br/>
+        <a target="_blank" href="//github.com/codystebbins/color_picker">
+          View Code
+        </a>
+      </p>
     </div>
+  </div>
+  <a class="carousel-control left" href="#projectsCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#projectsCarousel" data-slide="next">&rsaquo;</a>
+</div>
+</section>
 
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-34063179-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+<section id="experience">
+<div class="page-header">
+  <h1>
+    Experience 
+    <a class="uparrow scroll" href="#top">&uarr;</a>
+  </h1>
+</div>
+
+<h3>
+  Software Engineering Intern <br/>
+  <a href="//www.optionshouse.com/" target="_blank">
+    Optionshouse
+  </a>
+</h3>
+<h4>
+  September 2012 - Current
+</h4>
+<p>
+  Working on the WeSeed platform, http://www.weseed.com/, doing maintenance work in Java and Ruby on Rails. Required to be self motivated by prioritizing and creating issues from client complaints, bug reports, and performance bottlenecks for maintaining a large scale complex application with thousands of daily users concurrently. Communicated tests for patches to quality assurance and scheduled release cycles.
+</p>
+<p>
+  Languages Used: Java, JavaScript, Ruby, HTML5, CSS3
+  <br/>
+  Frameworks Used: Ruby on Rails, Hibernate
+  <br/>
+  Technologies Used: MySql, Memcached, Linux, Amazon Web Services (EC2, S3)
+  <br/>
+  Libraries Used: jQuery
+</p>
+
+<h3>
+  Web Instructor and Developer <br/>
+  <a href="//www.washington.edu/lst/workshops/" target="_blank">
+    University of Washington IT
+  </a>
+</h3>
+<h4>
+  February 2012 - Current
+</h4>
+<p>
+  Teaching modern web development technologies to University of Washington staff and students. Developing internal web applications using Python and Django for use amongst iTeam staff. Designing curriculum by curating the content offered by leading educational resources. Developed a system of educational badges and designed the web architecture to support it. Evaluating and designing the large scale architecture for various University of Washington web applications. Strong communication skills required for consulting with clients regarding web applications.
+</p>
+<p>
+  Languages Used: Python, Ruby, JavaScript, HTML5, CSS3, PHP
+  <br/>
+  Frameworks Used: Ruby on Rails, Django, Twitter Bootstrap
+  <br/>
+  Technologies Used: MySql, Linux Server, Heroku
+  <br/>
+  Libraries Used: jQuery
+</p>
+<h4>References</h4>
+<ul>
+  <li>
+    Peter Wallis
+    - <a href="mailto:pwallis@uw.edu">
+      pwallis@uw.edu
+    </a>
+    - Instructional Technologist  
+  </li>
+  <li>
+    Inside UW-IT News
+    - <a href="newsletter.pdf" target="_blank">
+      Newsletter
+    </a>
+    <ul>
+      <li>
+        The Learning Technologies student workshop team is moving from creating new content for their technology workshops to collecting or “curating” excellent external content that is already available online. This curation model allows the team to avoid the constant updates necessary when creating curriculum for rapidly changing modern software packages. <em><strong>Cody Stebbins</strong>, Web development instructor, says, "By outsourcing the creation of educational content to experts in the area and guiding clients through its use, I can ensure that the curriculum provided is relevant and high quality without extensive effort." </em>Current top Web sites and blogs such as Reddit, Pinterest, Boing Boing, and Lifehacker focus on similar models of curation. By adopting and adapting their models, curation is helping UW-IT to discover and use the best content resources.
+      </li>
+    </ul> 
+  </li>
+</ul>
+
+<h3>
+  Software Engineering Intern <br/>
+  <a href="//www.popshops.com/" target="_blank">
+    PopShops.com
+  </a>
+</h3>
+<h4>
+  June 2012 - August 2012
+</h4>
+<p>
+  Developing web applications with Ruby on Rails and Java to crowdsource commerce data collection and refinement. In charge of making decisions on software architecture, user experience, and developing big data management tools to handle large data sets regarding commerce. Worked closely with another developer to incorporate the existing production grade Java APIs powering PopShops.com.
+</p>
+<p>
+  Languages Used: Java, JavaScript, Ruby, HTML5, CSS3
+  <br/>
+  Frameworks Used: Ruby on Rails, Twitter Bootstrap
+  <br/>
+  Technologies Used: MySql, Memcached, Linux, Heroku
+  <br/>
+  Libraries Used: jQuery
+</p>
+<h4>References</h4>
+<ul>
+  <li>
+    Dan Harms
+    - <a href="mailto:dan@popshops.com">
+      dan@popshops.com
+    </a>
+    - CTO of PopShops.com
+  </li>
+</ul>
+
+<h3>
+  Software Engineering Intern <br/>
+  <a href="//www.smiteworks.com/" target="_blank">
+    SmiteWorks
+  </a>
+</h3>
+<h4>
+  June 2011 - August 2011
+</h4>
+<p>
+  Worked on designing and creating supporting tools for the product user base. Iterated on user feedback through several release cycles. In charge of designing the architecture and user experience as well as implementing and testing. Worked closely with developers in third parties to integrate data formats and APIs. Represented the company at the nationally renown gaming convention GenCon. Released two products used to this day to create and import content into the main product.
+</p>
+<p>
+  Languages Used: C#, C++, XML
+  <br/>
+  Frameworks Used: Windows Forms
+  <br/>
+  Technologies Used: .NET 4.0, Microsoft Visual Studio C/C++ Compiler</p>
+</p>
+<h4>References</h4>
+<ul>
+  <li>
+    John Gregory
+    - <a href="mailto:john.gregory@gmail.com">
+      john.gregory@gmail.com
+    </a>
+    - Owner of SmiteWorks
+    <br/> 
+    <ul>
+      <li>
+        Cody was an amazing find for us. I was able to give him rough concepts for tools I needed built, and he was able to research and design those products. Additionally, he worked with our user community to accept feedback, and incorporate into our products. Every day, he worked hard, and was very professional in his interactions. I would definitely work with Cody again.
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3>
+  Software Committee Intern <br/>
+  <a href="//k4northwest.com/" target="_blank">
+    PopShops.com
+  </a>
+</h3>
+<h4>
+  June 2011 - August 2011
+</h4>
+<p>
+  Worked to establish a software foundation for Keiretsu, find software companies that have connections to Keiretsu members or that fit with Keiretsu's mission, and organize events around raising capital for high-tech startups. Required strong verbal communication skills and professional business writing skills.
+</p>
+<h4>References</h4>
+<ul>
+  <li>
+    Sherry Zins
+    - <a href="mailto:sherry@keiretsuforum.com">
+      sherry@keiretsuforum.com
+    </a>
+    - Vice President of Keiretsu Forum Northwest
+  </li>
+</ul>
+
+</section>
 
 
+<section id="education">
+<div class="page-header">
+  <h1>
+    Education 
+    <a class="uparrow scroll" href="#top">&uarr;</a>
+  </h1>
+</div>
+
+<h3>
+  University of Washington
+</h3>
+<p>
+  September 2011 - September 2011
+</p>
+<p>
+  Undergraduate Major in 
+  <a href="//ischool.uw.edu/">
+    Informatics
+  </a>
+</p>
+
+</section>
+
+<section id="tech_skills">
+<div class="page-header">
+  <h1>
+    Technical Skills 
+    <a class="uparrow scroll" href="#top">&uarr;</a>
+  </h1>
+</div>
+
+<h3>
+  Proficient Technologies
+</h3>
+<ul>
+  <li>Ruby</li>
+  <li>Ruby on Rails</li>
+  <li>JavaScript</li>
+  <li>Apache Solr</li>
+  <li>Java</li>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>Twitter Bootstrap</li>
+  <li>Python</li>
+  <li>Linux</li>
+</ul>
+
+<h3>
+  Known Technologies
+</h3>
+<ul>
+  <li>Node.js</li>
+  <li>C#</li>
+  <li>C</li>
+  <li>C++</li>
+  <li>Android</li>
+</ul>
+
+</section>
+
+
+<!-- Content -->
+        </div><!--/span-->
+      </div><!--/row-->
+    </div><!--/.fluid-container-->
+
+
+    <footer class="footer">
+      <div class="container">
+        <p class="pull-right">
+          Cody Stebbins<br/>
+          mail@codystebbins.com<br/>
+          codystebbins.com
+        </p>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-34063179-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.toc-sidenav').affix({
+          offset: {
+            top: function () { return $(window).width() <= 980 ? 290 : 210 },
+            bottom: 70
+          }
+        });
+
+        $(".scroll").click(function(event){     
+            event.preventDefault();
+            var hash = $(this.hash).attr("id");
+            $('html,body').animate({scrollTop:$(this.hash).offset().top }, 500, function() {
+                window.location.hash = hash;
+            });
+        });
+
+        $('.carousel').carousel({
+          interval: false
+        });
+      });
+    </script>
   </body>
 </html>
