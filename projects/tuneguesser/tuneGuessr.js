@@ -316,7 +316,7 @@ youtube = (function () {
       url; // string - youtube gdata api REST url
 
   key = "AI39si6ysgzKazokS6ch6VH88z3XbeOOxNrQV_WWIleoqC2s0TbKhmrY3xmbRAKYNhpL2VKNq-s8NBCwWZlK_1vvZULwR-GVFQ";
-  url = "https://gdata.youtube.com/feeds/api/videos";
+  url = "//gdata.youtube.com/feeds/api/videos";
 
   // searches for a youtube video based on the given o.artist and o.track.
   // processes the resulting video with the given o.success
